@@ -40,36 +40,6 @@
 
         {% include projects.html %}
 
-        <h2 {% if site.style == 'dark' %}class="text-white"{% endif %} style="font-weight: 300;">Experience</h2>
-        <p></p>
-
-        <div class="d-flex flex-wrap gutter-condensed mb-4">
-
-            <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-
-              <a href="https://www.rbccm.com/en/" class="github-component position-relative hover-grow height-full no-underline d-flex flex-column flex-justify-center text-center border border-gray-light rounded-1 bg-white p-5">
-
-              <img src="https://media.licdn.com/dms/image/C4E0BAQGmFPFPu9XAjg/company-logo_200_200/0?e=2159024400&v=beta&t=ZvP70or1aTMd-VyQ9An37B8n0-lnh1-voTp8Vmf8_lE" class="mx-auto rounded-1 mb-3" alt="Java" width="64" height="64">
-
-              <p class="f3 lh-condensed text-center link-gray-dark mb-0 mt-1">Royal Bank of Canada Capital Markets</p>
-
-              </a>
-
-            </div>
-
-            <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-
-              <a href="https://www.bankofengland.co.uk/" class="github-component position-relative hover-grow height-full no-underline d-flex flex-column flex-justify-center text-center border border-gray-light rounded-1 bg-white p-5">
-
-              <img src="https://media.licdn.com/dms/image/C4D0BAQF2LvGZOv_F2g/company-logo_200_200/0?e=2159024400&v=beta&t=8OO9OQ_EHoZVka3enT7z1hyvjlJyHYCxxell6d0lAwA" class="mx-auto rounded-1 mb-3" alt="Java" width="64" height="64">
-
-              <p class="f3 lh-condensed text-center link-gray-dark mb-0 mt-1">Bank of England</p>
-
-              </a>
-
-            </div>
-          </div>
-
         {% if site.topics %}
           {% include interests.html %}
         {% endif %}
